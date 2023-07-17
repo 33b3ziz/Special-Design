@@ -12,10 +12,6 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-/* img {
-  aspect-ratio: auto;
-} */
-
 ::-webkit-scrollbar {
   width: 15px;
 }
@@ -983,6 +979,12 @@ footer {
   text-align: center;
 }
 /* end footer */
+
+img {
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: auto;
+}
 
 /* start grid system  */
 @media (min-width: 576px) {
